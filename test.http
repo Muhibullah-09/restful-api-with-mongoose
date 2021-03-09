@@ -1,0 +1,33 @@
+GET http://localhost:5000/api/products
+
+
+###
+POST http://localhost:5000/api/products
+# Content-Type: application/json
+
+
+# {
+#     "product_id" : "1",
+#     "title" : "Watch",
+#     "images": [
+#         "https://png.pngtree.com/element_our/png/20181130/watch-vector-icon-png_255353.jpg",
+#         "https://png.pngtree.com/element_our/png/20181130/watch-vector-icon-png_255353.jpg",
+#         "https://png.pngtree.com/element_our/png/20181130/watch-vector-icon-png_255353.jpg",
+#         "https://png.pngtree.com/element_our/png/20181130/watch-vector-icon-png_255353.jpg",
+#         "https://png.pngtree.com/element_our/png/20181130/watch-vector-icon-png_255353.jpg",
+#         ],
+#     "description": "This is automatic watch",
+#     "content": "hey want to watch now and later. You will want your viewers to subscribe to your channel so they'll come back and watch the content you're uploading.",
+#     "colors": [ "blue" , "black"],
+#     "sizes": [ "XXL" , "XL" ,"L" ,"M" ,"S"],
+#     "price": 250
+# }
+
+### 
+DELETE http://localhost:5000/api/products/id
+
+###
+PUT http://localhost:5000/api/products/id
+
+###
+GET http://localhost:5000/api/products/id
